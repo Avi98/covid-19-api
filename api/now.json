@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "name": "covid-19-django",
+    "builds": [{
+        "src": "api/wsgi.py",
+        "use": "@ardnt/now-python-wsgi",
+        "config": { "maxLambdaSize": "15mb" }
+    }],
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "now_app/wsgi.py"
+    }]
+}

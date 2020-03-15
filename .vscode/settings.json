@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "env/bin/python3",
+    "editor.suggest.statusBar.background": "#f5d520",
+    "workbench.colorTheme": "Monokai"
+}
